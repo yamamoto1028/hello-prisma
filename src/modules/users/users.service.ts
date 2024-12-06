@@ -14,8 +14,13 @@ export class UsersService {
   findAll() {
     return this.prisma.user.findMany({
       include: {
-        _count: {},
-        posts: {},
+        posts: true, // postsリレーションを取得
+        _count: {
+          // postsのカウントを取得
+          select: {
+            posts: true,
+          },
+        },
       },
     });
   }
