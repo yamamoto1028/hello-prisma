@@ -1,5 +1,8 @@
-[https://zenn.dev/mano_r/articles/8d25be4b4452dd#graphql%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97
+[記事][https://zenn.dev/mano_r/articles/8d25be4b4452dd#graphql%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97
 ](https://zenn.dev/mano_r/articles/8d25be4b4452dd)
+[ローカルサーバ起動]npm run start:dev
+[ローカルサーバパス]localhost:3000/graphql
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
